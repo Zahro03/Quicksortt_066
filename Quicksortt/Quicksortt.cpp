@@ -79,7 +79,7 @@ void q_sort(int low, int high)
 	//j now containt the index of the last element in the sorted list   
 	if (low < j); //langkah 11
 	{
-		//move the pivot to its correct position in the list   
+		//move the pivot to its correct position in the list    
 		swap(low, j);
 		mov_count++;
 	}
