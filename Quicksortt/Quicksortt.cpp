@@ -83,7 +83,7 @@ void q_sort(int low, int high)
 		swap(low, j);
 		mov_count++;
 	}
-	//sort the list on the left of pivot using quick sort  
+	//sort the list on the left of pivot using quick sort   
 	q_sort(low, j - 1); //langkah 12
 
 	//sort the list on the right of pivot using quick sort  
