@@ -71,7 +71,7 @@ void q_sort(int low, int high)
 		if (i < j) // langkah 9
 			// if the greater element is on the left of the element  
 		{
-			//swap the element at index i with the element at index j 
+			//swap the element at index i with the element at index j  
 			swap(i, j);
 			mov_count++;
 		}
