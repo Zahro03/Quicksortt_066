@@ -54,7 +54,7 @@ void q_sort(int low, int high)
 
 	while (i <= j) // langkah 10
 	{
-		// search for an element greater then pivot 
+		// search for an element greater then pivot  
 		while ((arr[i] <= pivot) && (i <= high))  // langkah 5
 		{
 			i++;  // langkah 6
